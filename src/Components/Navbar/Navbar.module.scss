@@ -1,6 +1,7 @@
 @import "../../App";
 
 .navbar {
+  z-index: 999999999;
   transition: all .5s;
   position: fixed;
   width: 100%;
