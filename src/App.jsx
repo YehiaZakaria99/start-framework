@@ -13,7 +13,7 @@ import Notfound from './Components/NotFound/Notfound';
 export default function App() {
   // Create Router Browser
   let routers = createBrowserRouter([
-    {path: '/' , element: <Layout />, children: [
+    {path: '' , element: <Layout />, children: [
       {index: true , element: <Home />},
       {path: 'about' , element: <About />},
       {path: 'portfolio' , element: <Portfolio />},
